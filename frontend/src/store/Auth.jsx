@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
 
   const userAuthentication = async () => {
     try {
-      const response = await fetch("http://localhost:4000/api/v1/user", {
+      const response = await fetch("https://mvp-project-backend.onrender.com", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,
