@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:4000/api/v1/";
+const API_URL = "https://mvp-project-backend.onrender.com";
 
 // Utility function for handling fetch requests
 const fetchApi = async (url, options) => {
