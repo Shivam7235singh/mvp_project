@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 
 import  {useAuth} from "../store/Auth"
 
-const URL = "http://localhost:4000/api/v1/register";
+const URL = "https://mvp-project-backend.onrender.com/register";
 
  const Register = () => {
   const [user, setUser] = useState({
