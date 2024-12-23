@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from "../store/Auth";
 
-const URL = "http://localhost:4000/api/v1/login";
+const URL = "https://mvp-project-backend.onrender.com/login";
 
 const Login = () => {
   const [user, setUser] = useState({ email: '', password: '' });
