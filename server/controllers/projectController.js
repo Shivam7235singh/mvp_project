@@ -59,7 +59,7 @@ const createProject = async (req, res) => {
 };
 
 // Get all projects
-const getAllProjectsByUserId = async (req, res) => {
+const getAllProjects = async (req, res) => {
   try {
     const userId = req.params.id; // User ID is passed as a URL parameter
 
