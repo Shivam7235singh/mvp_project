@@ -11,7 +11,7 @@ const ProjectExplore = ({ userId }) => {
   const loadProjects = async () => {
     try {
       setLoading(true); // Start loading
-      const response = await fetch(`http://localhost:4000/api/v1/projects/user/${userId}`, {
+      const response = await fetch(`https://mvp-project-backend.onrender.com/projects/user/${userId}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
