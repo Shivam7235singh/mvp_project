@@ -38,7 +38,7 @@ const ProjectForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:4000/api/v1/projects", {
+      const response = await fetch("https://mvp-project-backend.onrender.com/projects", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
