@@ -14,7 +14,7 @@ app.use(cors());
 
 
 const corsOptions = {
-  origin: "https://vercel.com/shivam-singhs-projects-c4437b07",
+  origin: "https://localhost : 3000",
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
   credentials: true,
 };
